@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/yanis/.nvm/versions/node/v4.2.6/bin/node',
+1 verbose cli   '/home/yanis/.nvm/versions/node/v4.2.6/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info prebuild elm-full-app@1.0.0
+6 info build elm-full-app@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info elm-full-app@1.0.0 Failed to exec build script
+9 verbose stack Error: elm-full-app@1.0.0 build: `webpack`
+9 verbose stack Exit status 255
+9 verbose stack     at EventEmitter.<anonymous> (/home/yanis/.nvm/versions/node/v4.2.6/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at ChildProcess.<anonymous> (/home/yanis/.nvm/versions/node/v4.2.6/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:821:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+10 verbose pkgid elm-full-app@1.0.0
+11 verbose cwd /home/yanis/Documents/Code/elm-all/elm-full-app
+12 error Linux 4.4.0-31-generic
+13 error argv "/home/yanis/.nvm/versions/node/v4.2.6/bin/node" "/home/yanis/.nvm/versions/node/v4.2.6/bin/npm" "run" "build"
+14 error node v4.2.6
+15 error npm  v2.14.12
+16 error code ELIFECYCLE
+17 error elm-full-app@1.0.0 build: `webpack`
+17 error Exit status 255
+18 error Failed at the elm-full-app@1.0.0 build script 'webpack'.
+18 error This is most likely a problem with the elm-full-app package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     webpack
+18 error You can get their info via:
+18 error     npm owner ls elm-full-app
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

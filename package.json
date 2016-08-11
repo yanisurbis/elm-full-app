@@ -1,0 +1,35 @@
+{
+  "name": "elm-full-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "node api.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanisurbis/elm-full-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanisurbis/elm-full-app/issues"
+  },
+  "homepage": "https://github.com/yanisurbis/elm-full-app#readme",
+  "dependencies": {
+    "ace-css": "^1.1.0",
+    "css-loader": "^0.23.1",
+    "elm-webpack-loader": "^3.0.3",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.6.3",
+    "json-server": "^0.8.17",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
